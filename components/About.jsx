@@ -31,7 +31,7 @@ export default function About() {
             md:w-[300px] md:h-[300px] 
             relative rounded-full overflow-hidden
             flex justify-center items-center
-            bg-white border-4 border-black/55 shrink-0
+            bg-[#f4f5fc] border-4 border-black/55 shrink-0
           "
         >
           <Image

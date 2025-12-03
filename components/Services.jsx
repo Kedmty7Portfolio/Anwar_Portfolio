@@ -20,17 +20,17 @@ const services = [
 
 export default function Services() {
   return (
-    <div className={``}>
-      <h2 className={`text-2xl md:text-3xl font-bold leading-12 mb-2`}>ما الذي أقدّمه؟ </h2>
-      <p>
+    <div className={`px-4`}>
+      <h2 className={`text-2xl md:text-3xl font-bold leading-12 mb-2 `}>ما الذي أقدّمه؟ </h2>
+      <p className="">
         أنا لا أقدّم محتوى لنشره… أنا أقدّم رسالة لها قيمة، وصوتًا يُسمع، وأثرًا
         يبقى. أبدأ من الفكرة، أعيد هندستها، وأحوّلها إلى محتوى يعرف كيف يصل،
         وكيف يُقنع، وكيف يصبح جزءًا من هوية صاحبها
       </p>
-      <span className={`text-[16px] font-medium leading-12 mb-2`}>أقدّم محتوى:</span>
+      <span className={`text-[16px] font-medium leading-12 mb-2 `}>أقدّم محتوى:</span>
      {
 		content.map((c,idx)=>(
-			 <ul key={idx} className="list-disc mr-5 my-2 px-4">
+			 <ul key={idx} className="list-disc mr-5 my-2 ">
         <li className="text-lg md:text-xl">{c}</li>
       </ul>
 		))
@@ -38,7 +38,7 @@ export default function Services() {
     <h1 className="text-3xl font-bold text-center mb-5">الخدمات </h1>
       {
 		services.map((s,idx)=>(
-			 <ul key={idx} className="list-disc mr-5 my-2 px-4">
+			 <ul key={idx} className="list-disc mr-5 my-2 ">
         <li className="text-[16px] md:text-xl">{s}</li>
       </ul>
 		))

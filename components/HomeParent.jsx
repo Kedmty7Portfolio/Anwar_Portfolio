@@ -4,6 +4,7 @@ import Articles from './Articles'
 import { Video } from './Video'
 import MyWorks from './MyWorks'
 import Services from './Services'
+import Projects from './Projects'
 
 export default function HomeParent() {
   return (
@@ -13,6 +14,7 @@ export default function HomeParent() {
       <Services/>
       {/* <Video/> */}
       <MyWorks/>
+      <Projects/>
     </div>
   )
 }

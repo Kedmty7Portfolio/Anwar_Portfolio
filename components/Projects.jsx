@@ -10,8 +10,12 @@ const projects = [
     link: "https://x.com/samiyahalsanai/status/1995319896448659646?s=12",
   },
   {
-    title: "محتوى خطة تسويقية",
-    description: "------",
+    title: "عيناي",
+    description: `
+    مشروع وطني طور محليا؛ لاستخدام تقنيات الذكاء
+الاصطناعي في التشخيص المبكر لاعتلال الشبكية
+السكري؛ للوقایة من العمی.
+    `,
      start_d: "24/2/2025 ",
     end_d: "9/9/2025  ",
     link: "https://x.com/eyen_ai?s=11",
@@ -34,7 +38,7 @@ export default function Projects() {
         {projects.map((p, idx) => (
           <div
             key={idx}
-            className={`flex-1/2 p-5 rounded-xl h-[250px] bg-[#cdccca40]`}
+            className={`flex-1/2 p-5 rounded-xl h-[280px] bg-[#cdccca40]`}
           >
             <h2 className={`text-lg font-bold leading-12 mb-2`}>{p.title}</h2>
             <p>{p.description}</p>

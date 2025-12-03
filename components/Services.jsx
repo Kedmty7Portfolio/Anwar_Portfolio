@@ -21,16 +21,16 @@ const services = [
 export default function Services() {
   return (
     <div className={``}>
-      <h2>ما الذي أقدّمه؟ – What I Deliver</h2>
+      <h2 className={`text-2xl md:text-3xl font-bold leading-12 mb-2`}>ما الذي أقدّمه؟ </h2>
       <p>
         أنا لا أقدّم محتوى لنشره… أنا أقدّم رسالة لها قيمة، وصوتًا يُسمع، وأثرًا
         يبقى. أبدأ من الفكرة، أعيد هندستها، وأحوّلها إلى محتوى يعرف كيف يصل،
         وكيف يُقنع، وكيف يصبح جزءًا من هوية صاحبها
       </p>
-      <span>أقدّم محتوى:</span>
+      <span className={`text-lg font-medium leading-12 mb-2`}>أقدّم محتوى:</span>
      {
 		content.map((c,idx)=>(
-			 <ul key={idx}>
+			 <ul key={idx} className="list-disc mr-5 my-2">
         <li>{c}</li>
       </ul>
 		))
@@ -38,7 +38,7 @@ export default function Services() {
     <h1 className="text-3xl font-bold text-center mb-5">الخدمات </h1>
       {
 		services.map((s,idx)=>(
-			 <ul key={idx}>
+			 <ul key={idx} className="list-disc mr-5 my-2">
         <li>{s}</li>
       </ul>
 		))

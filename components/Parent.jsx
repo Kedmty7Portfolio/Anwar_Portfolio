@@ -3,8 +3,8 @@ import Experiences from './Experiences'
 import Skills from './Skills'
 import Education from './Education'
 import Certificates from './Certificates'
-import Courses from './Courses'
-import Volunteering from './Volunteering'
+import Memberships from './Memberships'
+import Achievements from './Achievements'
 
 
 export default function Parent() {
@@ -15,8 +15,9 @@ export default function Parent() {
       <Experiences/>
       <Education/>
       <Certificates/>
-      <Courses/>
-      <Volunteering/>
+      <Memberships/>
+      <Achievements/>
+ 
     </div>
   )
 }

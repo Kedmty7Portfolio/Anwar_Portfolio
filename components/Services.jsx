@@ -30,16 +30,16 @@ export default function Services() {
       <span className={`text-lg font-medium leading-12 mb-2`}>أقدّم محتوى:</span>
      {
 		content.map((c,idx)=>(
-			 <ul key={idx} className="list-disc mr-5 my-2">
-        <li className="text-xl">{c}</li>
+			 <ul key={idx} className="list-disc mr-8 my-2 ">
+        <li className="text-lg md:text-xl">{c}</li>
       </ul>
 		))
 	 }
     <h1 className="text-3xl font-bold text-center mb-5">الخدمات </h1>
       {
 		services.map((s,idx)=>(
-			 <ul key={idx} className="list-disc mr-5 my-2">
-        <li className="text-xl">{s}</li>
+			 <ul key={idx} className="list-disc mr-8 my-2">
+        <li className="text-lg md:text-xl">{s}</li>
       </ul>
 		))
 	 }

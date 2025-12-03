@@ -68,14 +68,18 @@ export default function MyWorks() {
               >
                 {/* video */}
                 <div
-                  className={`relative w-full h-48 md:w-[350px] bg-amber-200 rounded-xl overflow-hidden`}
+                  className={`relative w-full h-48 md:w-[350px] rounded-xl overflow-hidden`}
                 >
-                  <Image
-                    src={`/img1.png`}
-                    alt={""}
-                    fill
-                    className="object-cover"
-                  />
+                <video
+         
+          className="w-full h-full"
+          controls
+          preload="none"
+        >
+          <source src="/vid.mp4" type="video/mp4" />
+          <track src="/vid.mp4" kind="subtitles" srcLang="ar" label="Arabic" />
+          Your browser does not support the video tag.
+        </video>
                 </div>
               </div>
             </div>

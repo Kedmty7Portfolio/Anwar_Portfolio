@@ -1,15 +1,18 @@
 const projects = [
   {
-    title: "يوم القهوة العالمي",
-    description: "اللي ما يعرفك ما يثمنك… إلا القهوة، تعرفك من أول رشفة. ",
-    start_d: "29 اكتوبر ",
+    title: "كتابة محتوى حساب سامية السناني",
+    description: `تحس أنك رجعت للدنيا… لكن مو نفس الناس؟
+ترجع للأماكن القديمة… وما يعود لك نفس الشعور؟
+وتسأل نفسك: “ليش أحس أني غريب بينهم؟”
+هذا الموضوع يهمك.`,
+    start_d: "29/10/2025",
     end_d: "اليوم ",
-    link: "https://x.com/samiyahalsanai/status/1995319896448659646",
+    link: "https://x.com/samiyahalsanai/status/1995319896448659646?s=12",
   },
   {
     title: "محتوى خطة تسويقية",
     description: "------",
-     start_d: "24/4/2025 ",
+     start_d: "24/2/2025 ",
     end_d: "9/9/2025  ",
     link: "https://x.com/eyen_ai?s=11",
   },
@@ -33,7 +36,7 @@ export default function Projects() {
             key={idx}
             className={`flex-1/2 p-5 rounded-xl h-[250px] bg-[#cdccca40]`}
           >
-            <h2 className={`text-xl font-bold leading-12 mb-2`}>{p.title}</h2>
+            <h2 className={`text-lg font-bold leading-12 mb-2`}>{p.title}</h2>
             <p>{p.description}</p>
             <span className="flex items-center gap-5 my-3">
               <span>{p.start_d}</span>

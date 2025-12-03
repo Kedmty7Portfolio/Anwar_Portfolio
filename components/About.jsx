@@ -46,7 +46,7 @@ export default function About() {
         {/* Summary */}
         <div className="summry text-white">
           <h1 className="font-bold text-[22px] mb-3">
-           أنوار البقمي{" "}
+           أنوار عبدالله{" "}
             <span className="text-[#feb429]">كاتبة محتوى</span>
           </h1>
 

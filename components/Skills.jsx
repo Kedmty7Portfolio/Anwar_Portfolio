@@ -1,32 +1,46 @@
 import React from "react";
-import { 
-  Pen, 
-  Edit, 
-  SearchCheck, 
-  Share2, 
-  FileText, 
+import {
+  MessageSquare,
   Megaphone,
-  MessageCircle,
+  BarChart3,
+  ClipboardList,
+  PieChart,
+  Settings,
+  CalendarCheck,
+  FileSpreadsheet,
+  Lightbulb,
+  RefreshCcw,
   Users,
-  Clock
+  Clock,
+  Brain,
+  Handshake,
+  Sparkles
 } from "lucide-react";
 
-// المهارات التقنية مع الأيقونات
 const tecSkills = [
-  { title: "كتابة المحتوى الإبداعي", icon: <Pen size={20} /> },
-  { title: "تحرير وتدقيق النصوص", icon: <Edit size={20} /> },
-  { title: "كتابة SEO وتحسين محركات البحث", icon: <SearchCheck size={20} /> },
-  { title: "إدارة منصات التواصل الاجتماعي", icon: <Share2 size={20} /> },
-  { title: "كتابة المقالات والمدونات", icon: <FileText size={20} /> },
-  { title: "كتابة نصوص الإعلانات Copywriting", icon: <Megaphone size={20} /> },
+{ title: "الاتصال المؤسسي", icon: <MessageSquare size={20} /> },
+{ title: "إدارة العلاقات العامة", icon: <Megaphone size={20} /> },
+{ title: "تطوير مؤشرات الأداء وإعداد التقارير", icon: <BarChart3 size={20} /> },
+{ title: "تنسيق المشاريع", icon: <ClipboardList size={20} /> },
+{ title: "تحليل البيانات وقياس الأداء", icon: <PieChart size={20} /> },
+{ title: "إدارة الأنظمة الإدارية", icon: <Settings size={20} /> },
+{ title: "أنظمة CRM وجدولة المواعيد", icon: <CalendarCheck size={20} /> },
+{ title: "Microsoft Office & Power BI", icon: <FileSpreadsheet size={20} /> },
 ];
 
-// المهارات الناعمة مع الأيقونات
+
+// المهارات الشخصية مع الأيقونات
 const softSkills = [
-  { title: "التواصل", icon: <MessageCircle size={20} /> },
-  { title: "العمل ضمن فريق", icon: <Users size={20} /> },
-  { title: "إدارة الوقت", icon: <Clock size={20} /> },
+{ title: "التواصل الفعّال", icon: <MessageSquare size={20} /> },
+{ title: "حل المشكلات", icon: <Lightbulb size={20} /> },
+{ title: "التكيّف", icon: <RefreshCcw size={20} /> },
+{ title: "القيادة ودعم الفريق", icon: <Users size={20} /> },
+{ title: "إدارة الوقت", icon: <Clock size={20} /> },
+{ title: "التفكير النقدي", icon: <Brain size={20} /> },
+{ title: "العمل الجماعي", icon: <Handshake size={20} /> },
+{ title: "الإبداع والابتكار", icon: <Sparkles size={20} /> },
 ];
+
 
 export default function Skills() {
   return (

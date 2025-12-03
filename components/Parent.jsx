@@ -4,7 +4,6 @@ import Skills from './Skills'
 import Education from './Education'
 import Certificates from './Certificates'
 import Courses from './Courses'
-import Projects from './Projects'
 import Volunteering from './Volunteering'
 
 
@@ -13,7 +12,6 @@ export default function Parent() {
     <div className='container m-auto  p-[var(--main-padding)] flex flex-col gap-2'>
  
       <Skills/>
-     <Projects/>
       <Experiences/>
       <Education/>
       <Certificates/>

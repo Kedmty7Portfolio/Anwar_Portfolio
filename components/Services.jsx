@@ -20,7 +20,7 @@ const services = [
 
 export default function Services() {
   return (
-    <div className={`px-4`}>
+    <div className={`px-4 my-10`}>
       <h2 className={`text-2xl md:text-3xl font-bold leading-12 mb-2 `}>ما الذي أقدّمه؟ </h2>
       <p className="">
         أنا لا أقدّم محتوى لنشره… أنا أقدّم رسالة لها قيمة، وصوتًا يُسمع، وأثرًا

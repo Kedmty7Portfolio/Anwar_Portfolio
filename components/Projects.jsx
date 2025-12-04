@@ -35,7 +35,7 @@ const projects = [
 export default function Projects() {
   return (
     <div
-      className={`bg-gray-100 py-10 
+      className={`bg-gray-100 py-10  md:px-5
               `}
     >
       <h1 className="text-3xl font-bold text-center mb-10">مشاريعي على إكس</h1>
@@ -43,7 +43,7 @@ export default function Projects() {
       <div
         className={`bg-white rounded-xl shadow-lg p-5
                 flex flex-wrap flex-col md:flex-row justify-center items-center gap-5
-                w-full lg:w-[850px]  my-5
+                w-full  my-5
               `}
       >
         {projects.map((p, idx) => (

@@ -50,7 +50,7 @@ export default function MyWorks() {
                 className={`h-53 w-full rounded-lg relative overflow-hidden`}
               >
                 <Image
-                  src={`/yoja.jpg`}
+                  src={`/yoga.jpeg`}
                   alt={`Yoga`}
                   fill
                   className={`object-fit`}
@@ -73,7 +73,7 @@ export default function MyWorks() {
               >
                 <Image
                   src={`/without_coffe.jpg`}
-                  alt={`Yoga`}
+                  alt={`without_coffe`}
                   fill
                   className={`object-fit`}
                 />

@@ -20,25 +20,36 @@ const projects = [
     end_d: "9/9/2025  ",
     link: "https://x.com/eyen_ai?s=11",
   },
+  {
+    img: "coffee.jpeg",
+    title: "يوم القهوة العالمي",
+    description: `
+    اللي ما يعرفك ما يثمنك… إلا القهوة، تعرفك من أول رشفة.
+
+    `,
+    start_d: "10/2025 ",
+    end_d: "اليوم  ",
+    link: "https://x.com/sama_a2030/status/1973655880165105874?s=12",
+  },
 ];
 export default function Projects() {
   return (
     <div
-      className={`bg-gray-100 py-10 px-5
+      className={`bg-gray-100 py-10 
               `}
     >
       <h1 className="text-3xl font-bold text-center mb-10">مشاريعي على إكس</h1>
 
       <div
         className={`bg-white rounded-xl shadow-lg p-5
-                flex flex-col md:flex-row justify-center gap-5
-                w-full lg:w-[850px] mx-auto my-5
+                flex flex-wrap flex-col md:flex-row justify-center items-center gap-5
+                w-full lg:w-[850px]  my-5
               `}
       >
         {projects.map((p, idx) => (
           <div
             key={idx}
-            className={`flex-1/2 p-5 rounded-xl h-[480px] bg-[#cdccca40]`}
+            className={`w-[300px] p-5 rounded-xl h-[480px] bg-[#cdccca40]`}
           >
             <div className={`h-53 w-full rounded-lg relative overflow-hidden`}>
               <Image

@@ -25,7 +25,7 @@ export default function Header() {
       </Link>
       <div className={`links flex items-center gap-5 text-lg  md:text-xl`}>
         <Link href={`/Aboutinfo`}>عني</Link>
-        <Link href={`/`}>سابقة أعمالي</Link>
+        <Link href={`/`}> أعمالي</Link>
       </div>
     </div>
   );

@@ -49,14 +49,14 @@ export default function Projects() {
         {projects.map((p, idx) => (
           <div
             key={idx}
-            className={`w-[300px] p-5 rounded-xl h-[480px] bg-[#cdccca40]`}
+            className={`w-[300px] p-5 rounded-xl h-[530px] bg-[#cdccca40]`}
           >
-            <div className={`h-53 w-full rounded-lg relative overflow-hidden`}>
+            <div className={`h-68 w-full rounded-lg relative overflow-hidden`}>
               <Image
                 src={`/${p.img}`}
                 alt={`${p.title}`}
                 fill
-                className={`object-fit`}
+                className={`object-cover`}
               />
             </div>
             <h2 className={`text-lg font-bold leading-12 mb-2`}>{p.title}</h2>

@@ -4,7 +4,7 @@ const hashtags = ["يوغا", "بداية أسبوع", "توازن"];
 
 export default function MyWorks() {
   return (
-    <div className=" bg-gray-100 py-10 px-5">
+    <div className=" bg-gray-100 py-10 md:px-5">
       <h1 className="text-3xl font-bold text-center mb-10">أعمالي</h1>
       <div className="flex justify-center items-center gap-6">
         <div className="bg-white rounded-xl shadow-lg overflow-hidden flex flex-col gap-5 p-5">

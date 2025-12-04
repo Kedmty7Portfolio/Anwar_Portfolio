@@ -89,10 +89,10 @@ export default function MyWorks() {
             </div>
           </div>
           {/* ------------------------------------ */}
-          <div className="flex-1/2 p-5 rounded-xl h-[200px] bg-[#cdccca40]">
+          {/* <div className="flex-1/2 p-5 rounded-xl h-[200px] bg-[#cdccca40]">
             <h2 className="font-semibold leading-7">يوم القهوة العالمي</h2>
             <p>اللي ما يعرفك ما يثمنك… إلا القهوة، تعرفك من أول رشفة.</p>
-          </div>
+          </div> */}
           {/* ------------------------------------ */}
         </div>
       </div>

@@ -19,13 +19,10 @@ import {
 
 const tecSkills = [
 { title: "الاتصال المؤسسي", icon: <MessageSquare size={20} /> },
-{ title: "إدارة العلاقات العامة", icon: <Megaphone size={20} /> },
 { title: "تطوير مؤشرات الأداء وإعداد التقارير", icon: <BarChart3 size={20} /> },
 { title: "تنسيق المشاريع", icon: <ClipboardList size={20} /> },
 { title: "تحليل البيانات وقياس الأداء", icon: <PieChart size={20} /> },
 { title: "إدارة الأنظمة الإدارية", icon: <Settings size={20} /> },
-{ title: "أنظمة CRM وجدولة المواعيد", icon: <CalendarCheck size={20} /> },
-{ title: "Microsoft Office & Power BI", icon: <FileSpreadsheet size={20} /> },
 ];
 
 

@@ -45,29 +45,55 @@ export default function MyWorks() {
           {/* ----------- Card 2 ----------- */}
           <div className="card2 flex justify-center gap-5 w-full p-3 lg:w-[850px] rounded-xl flex-col md:flex-row">
             {/* Quote Box */}
-            <div className="flex-1/2 p-5 rounded-xl h-[200px] bg-[#cdccca40]">
+            <div className="flex-1/2 p-5 rounded-xl h-[390px] bg-[#cdccca40]">
+              <div
+                className={`h-53 w-full rounded-lg relative overflow-hidden`}
+              >
+                <Image
+                  src={`/yoja.jpg`}
+                  alt={`Yoga`}
+                  fill
+                  className={`object-fit`}
+                />
+              </div>
+              <div className={`txt flex flex-col gap-2 my-2`}>
+
               <p>
                 مو كل حركه يوغا تبي مرونة… بعض الحركات تبي “تمرنا وتعيش اللحظة ”
                 فقط 💭
               </p>
               <a href="#"># يوغا بمزاج</a>
+              </div>
             </div>
 
             {/* News Box */}
-            <div className="flex-1/2 p-5 rounded-xl h-[200px] bg-[#cdccca40]">
+            <div className="flex-1/2 p-5 rounded-xl h-[390px] bg-[#cdccca40]">
+              <div
+                className={`h-53 w-full rounded-lg relative overflow-hidden`}
+              >
+                <Image
+                  src={`/without_coffe.jpg`}
+                  alt={`Yoga`}
+                  fill
+                  className={`object-fit`}
+                />
+              </div>
+               <div className={`txt flex flex-col gap-2 my-2`}>
+
               <h2 className="font-semibold leading-7">عاجل📢</h2>
               <p>
                 تم رصد شخص بدأ أسبوعه بنفس عميق بدل كوب قهوة ☕😌 يُتوقع انخفاض
                 نسبة التوتر وارتفاع طاقة السلام الداخلي خلال الساعات القادمة.
               </p>
+               </div>
             </div>
           </div>
-            {/* ------------------------------------ */}
-            <div className="flex-1/2 p-5 rounded-xl h-[200px] bg-[#cdccca40]">
-              <h2 className="font-semibold leading-7">يوم القهوة العالمي</h2>
-              <p>اللي ما يعرفك ما يثمنك… إلا القهوة، تعرفك من أول رشفة.</p>
-            </div>
-            {/* ------------------------------------ */}
+          {/* ------------------------------------ */}
+          <div className="flex-1/2 p-5 rounded-xl h-[200px] bg-[#cdccca40]">
+            <h2 className="font-semibold leading-7">يوم القهوة العالمي</h2>
+            <p>اللي ما يعرفك ما يثمنك… إلا القهوة، تعرفك من أول رشفة.</p>
+          </div>
+          {/* ------------------------------------ */}
         </div>
       </div>
     </div>

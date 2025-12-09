@@ -7,7 +7,7 @@ export default function Projects() {
       className={`bg-gray-100 py-10  md:px-5
               `}
     >
-      <h1 className="text-3xl font-bold text-center mb-10">مشاريعي على إكس</h1>
+      <h1 className="text-3xl font-bold text-center mb-10">مشاريعي </h1>
 
       <div
         className={`bg-white rounded-xl shadow-lg p-5
